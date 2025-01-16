@@ -1,0 +1,13 @@
+name: "new file"
+on:
+    push:
+        branches:
+            - master
+          
+jobs:
+     hp:
+       run on: ubuntu-latest
+       steps:
+             - name: "create a new file"
+                run: touch newfile.txt
+ 
