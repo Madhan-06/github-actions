@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+    
 
 jobs: 
   build:
@@ -11,5 +12,4 @@ jobs:
 
     steps:
     - name: "work hard untill u git it"
-      run: echo "work hard untill u git it"
       run: echo "work hard untill u git it"
