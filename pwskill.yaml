@@ -1,0 +1,14 @@
+name: "pwskill"
+
+on:
+  push:
+    branches:
+      - master
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: "work hard untill u git it"
+       run: echo "work hard untill u git it"
