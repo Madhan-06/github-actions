@@ -1,0 +1,14 @@
+name: "madhan"
+
+on:
+  push:
+    branches:
+      - master
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: "madhan"
+      run: echo "finally i did it"
